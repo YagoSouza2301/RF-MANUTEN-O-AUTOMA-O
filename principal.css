@@ -253,7 +253,7 @@ header .cotação .button p {
 /* MODIFICAÇÕES DAS CAIXAS DE SERVIÇOS */
 .sessão2 .box-serviços {
     width: 15.5vw;
-    height: 28vh;
+    height: 25vh;
     padding: 22px;
     background-color: white;
     border-radius: 25px;
@@ -271,7 +271,7 @@ header .cotação .button p {
     color: rgb(8, 26, 51);
 }
 .sessão2 .box-serviços h2 {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 1.2rem;
 }
 .sessão2 .box-serviços p {
@@ -293,7 +293,7 @@ header .cotação .button p {
     transform: translateX(0px);
 }
 
-/* --------------------------SESSÃO2-------------------------- */
+/* --------------------------SESSÃO3-------------------------- */
 .sessão3 {
     width: 100%;
     height: auto;
@@ -351,7 +351,7 @@ header .cotação .button p {
 }
 .sessão3 .diferencial .topico h3 {
     color: aliceblue;
-    font-size: 20px;
+    font-size: 18px;
 }
 .sessão3 .diferencial .vertical {
     width: 2px;
@@ -359,6 +359,113 @@ header .cotação .button p {
     background-color: aliceblue;
 }
 
+/* --------------------------SESSÃO3-------------------------- */
+
+.sessão4 {
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+    background-color: aliceblue;
+}
+.sessão4 .projetos {
+    display: flex;
+    justify-content: space-between;
+}
+.sessão4 .text {
+    width: 20vw;
+}
+.sessão4 .text h4 {
+    margin-bottom: 1rem;
+    color: red;
+}
+.sessão4 .text h1 {
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+.sessão4 .text p {
+    font-size: 22px;
+    color: rgb(68, 75, 82);
+}
+.sessão4 .box-serv {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sessão4 .button {
+    margin-top: 3rem;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 25px;
+    background-color: transparent;
+    border-color: black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+/* ao passar o mouse */
+.sessão4 .button:hover {
+    box-shadow: rgba(3, 3, 3, 0.616) 2px 2px 15px;
+    transform: scale(1.05, 1.05);
+    font-size: 18.5px;
+}
+/* ao clicar */
+.sessão4 .button:active {
+    transform: scale(0.95, 0.95);
+    font-size: 17.8px;    
+}
+.sessão4 .button a {
+    color: rgba(8, 26, 51, 0.92);
+    text-align: center;
+    width: 50vw;
+}
+.sessão4 .img-projetos {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+.sessão4 .machine {
+    width: 18vw;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     box-shadow: rgb(116, 115, 115) 1px 1px 15px;
+}
+.sessão4 .machine:hover {
+    transform: translate(3px, -7px);
+    box-shadow: black 2px 2px 15px;   
+}
+.sessão4 .machine div {
+    background-color:rgb(8, 26, 51);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0 15px 0 0;
+    corner-shape: bevel;
+    box-shadow: red 0px -1px 0px;
+}
+.sessão4 .machine1 {
+    background-image: url(IMAGENS/INICIO/painel.png);
+}
+.sessão4 .machine2 {
+    background-image: url(IMAGENS/INICIO/maquina\ completa.png);
+}
+.sessão4 .machine3 {
+    background-image: url(IMAGENS/INICIO/dosador.png);
+}
+.sessão4 .machine h3, p {
+    color: aliceblue;
+}
+
+
+
+
+
+/* WHATSAPP FIXO INFERIOR DIREITO */
 .zap {
     position: fixed;
     bottom: 10px;   
