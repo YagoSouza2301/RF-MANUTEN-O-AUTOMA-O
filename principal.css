@@ -359,7 +359,7 @@ header .cotação .button p {
     background-color: aliceblue;
 }
 
-/* --------------------------SESSÃO3-------------------------- */
+/* --------------------------SESSÃO4-------------------------- */
 
 .sessão4 {
     width: 100%;
@@ -378,7 +378,7 @@ header .cotação .button p {
     margin-bottom: 1rem;
     color: red;
 }
-.sessão4 .text h1 {
+.sessão4 .text h2 {
     font-size: 35px;
     margin-bottom: 2rem;
 }
@@ -461,6 +461,109 @@ header .cotação .button p {
     color: aliceblue;
 }
 
+/* --------------------------SESSÃO5-------------------------- */
+.sessão5 {
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    background-color: rgb(8, 26, 51);
+
+}
+.sessão5 .alinha {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 1rem;
+}
+.sessão5 .alinha .traço {
+    width: 2rem;
+    height: 2px;
+    background-color: red;
+}
+.sessão5 .alinha h4 {
+    font-size: 20px;
+    color: red;
+}
+.sessão5 h2 {
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+.sessão5 h2 span {
+    color: red;
+}
+.sessão5 .text p {
+    margin-bottom: 5rem;
+    font-size: 19px;
+}
+
+
+.sessão6 {
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    background-color: rgb(8, 26, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sessão6 .comit {
+    margin-top: -12rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(8, 26, 51);
+}
+.sessão6 .box-comit{
+    margin: 10px 15px;
+    backdrop-filter: blur(10px);   
+    background: rgba(8, 26, 51, 0.92);
+    border: 2px solid #24466D;
+    border-radius: 5px;
+}
+ .sessão6 .box-comit .medição {
+    padding: 2rem;
+    height: auto;
+}
+.sessão6 .medição i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: red;
+}
+.sessão6 .medição p {
+    font: 19px;
+}
+.sessão6 .medição .identifique {
+    display: flex;
+    margin-top: 2rem;
+}
+.sessão6 .medição .identifique .img {
+    width: 3vw;
+    height: 6vh;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid aliceblue;
+    margin-right: 1.5rem;
+}
+.sessão6 .medição .identifique .perfil1 {
+    background-image: url(IMAGENS/Mais\ que\ serviços\,\ é\ parceria!\ \(2\).png);
+}
+.sessão6 .medição .identifique .perfil2 {
+    background-image: url(IMAGENS/Mais\ que\ serviços\,\ é\ parceria!\ \(2\).png);
+}
+.sessão6 .medição .identifique .perfil3 {
+    background-image: url(IMAGENS/Mais\ que\ serviços\,\ é\ parceria!\ \(2\).png);
+}
+.sessão6 .medição .identifique .avalia-nome h3 {
+    color: aliceblue;
+    font-size: 22px;
+}
+.sessão6 .medição .identifique .avalia-nome i {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #FFC107;
+}
 
 
 
