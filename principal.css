@@ -262,8 +262,8 @@ header .cotação .button p {
     margin-bottom: 1rem;
 }
 .sessão2 .box-serviços:hover {
-    transform: translate(3px, -7px);
-    box-shadow: rgb(199, 16, 16) 2px 2px 15px;   
+    transform: translateY(-10px);
+    box-shadow: rgba(199, 16, 16, 0.601) 1px 1px 15px;   
 }
 .sessão2 .box-serviços i {
     font-size: 3rem;
@@ -437,7 +437,7 @@ header .cotação .button p {
      box-shadow: rgb(116, 115, 115) 1px 1px 15px;
 }
 .sessão4 .machine:hover {
-    transform: translate(3px, -7px);
+    transform: translateY(-10px);
     box-shadow: black 2px 2px 15px;   
 }
 .sessão4 .machine div {
@@ -513,14 +513,20 @@ header .cotação .button p {
     align-items: center;
     background-color: rgb(8, 26, 51);
 }
-.sessão6 .box-comit{
+.sessão6 .feedback-card{
     margin: 10px 15px;
     backdrop-filter: blur(10px);   
     background: rgba(8, 26, 51, 0.92);
     border: 2px solid #24466D;
     border-radius: 5px;
 }
- .sessão6 .box-comit .medição {
+.sessão6 .feedback-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.656),
+                0 0 15px rgba(36, 70, 109, 0.25);
+    border-color: #42658C;  
+}
+ .sessão6 .feedback-card .medição {
     padding: 2rem;
     height: auto;
 }
