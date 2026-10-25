@@ -467,7 +467,6 @@ header .cotação .button p {
     height: auto;
     padding: 5rem;
     background-color: rgb(8, 26, 51);
-
 }
 .sessão5 .alinha {
     display: flex;
@@ -497,7 +496,7 @@ header .cotação .button p {
     font-size: 19px;
 }
 
-
+/* --------------------------SESSÃO6-------------------------- */
 .sessão6 {
     width: 100%;
     height: auto;
@@ -571,7 +570,98 @@ header .cotação .button p {
     color: #FFC107;
 }
 
+/* --------------------------SESSÃO7-------------------------- */
+.sessão7 {
+    width: 100%;
+    height: auto;
+    background:linear-gradient(90deg, rgb(8, 26, 51) 33%, transparent 100%), url(IMAGENS/INICIO/PLANO\ AZUL\ DE\ ENGRENAGEM.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sessão7 h2 {
+    font-size: 38px;
+    color: aliceblue;
+}
+.sessão7 h2 span {
+    color: red;
+}
+.sessão7 p {
+    font-size: 19px;
+    color: #42658C;
+}
+.sessão7 button {
+    width: 12vw;
+    height: 4vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    border-color: transparent;
+    cursor: pointer;
+}
+.sessão7 button:hover {
+    box-shadow: black 2px 2px 15px;
+    transform: scale(1.05, 1.05);
+    font-size: 18.5px
+}
+.sessão7 button:active {
+    transform: scale(0.95, 0.95);
+}
+.sessão7 button i, p {
+    font-size: 18px;
+    color: aliceblue;
+}
+.sessão7 button p {
+    color: aliceblue;
+}
+.sessão7 .vertical {
+    width: 2px;
+    height: 7rem;
+    background-color: #42658C;
+}
 
+/* --------------------------RODAPÉ-------------------------- */
+footer {
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+}
+footer #footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .box-img {
+    background-image: url(IMAGENS/INICIO/LOGO\ SEM\ FUNDO.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5rem;
+    height: 5rem;
+    margin: 0px 5rem;
+}
+footer .vertical {
+    width: 2px;
+    height: 30vh;
+    background-color: #42658C;
+}
+footer .box {
+    text-align: center;
+    width: 20vw;
+    height: 30vh;
+    margin: 0px 5rem;
+}
+footer .box div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /* WHATSAPP FIXO INFERIOR DIREITO */
