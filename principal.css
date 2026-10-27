@@ -712,6 +712,10 @@ footer .box-rede div i {
 footer .box-rede div i:hover {
     color: #42658C;
 }
+footer iframe  {
+    width: 15vw;
+    height: 15vh;
+}
 /* WHATSAPP FIXO INFERIOR DIREITO */
 .zap {
     position: fixed;
