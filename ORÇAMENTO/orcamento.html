@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="orcamento.css">
+   <script src="https://kit.fontawesome.com/b61a4ed80b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../IMAGENS/INICIO/LOGO SEM FUNDO.png" type="image/x-icon">
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="orcament.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <title>ORÇAMENTO</title>
+</head>
+<body>
+
+        <!-- CABEÇARIO -->
+        <header>
+            <!-- Caixa primaria -->
+            <div id="box-header">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../IMAGENS/INICIO/LOGO SEM FUNDO.png" alt="Logo-RF" loading="lazy">
+                        <div class="empresa">
+                            <h1>MANUTENÇÃO <br> AUTOMAÇÃO</h1>
+                        </a>
+                        </div>
+                </div>
+                        
+                    
+                    <!-- Menu -->
+                <div class="menu-header">
+                    <ul>
+                        <li>
+                            <a href="../index.html">Início</a>
+                        </li>
+                        <li>
+                            <a href="">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="">Projetos</a>
+                        </li>
+                        <li>
+                            <a href="">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Orçamento -->
+                <div class="cotação">
+                    
+                    <a href="">
+                    <div class="button">
+                        <i class="fa-solid fa-wallet"></i>
+                        <p>Solicite um orçamento</p>
+                    </div>
+                </a>
+
+                </div>
+
+            </div>
+
+        </header>
+    <main>
+        <section class="formulario">
+
+            <div class="form">
+
+                <div class="agradecimento">
+                    <img src="../IMAGENS/INICIO/LOGO SEM FUNDO.png" alt="">
+                    <h3>SOLICITE SEU ORÇAMENTO</h3>
+                </div>
+
+                <form id="formContato">
+                    <div class="esquerda">
+                        
+                        <div class="perguntas">
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="perguntas">
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
+                        </div>
+
+                        <div class="perguntas">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                        </div>
+
+                        
+                        <div class="perguntas">
+                            <label for="tipo">Fale abaixo o assunto desejado:</label>
+                            <select name="tipo" id="tipo">
+                                <option value="Outro">Outro</option>
+                                <option value="Cotação">Cotação</option>
+                                <option value="Dúvida">Dúvida</option>
+                                <option value="Manutenção">Manutenção</option>
+                                <option value="Elogio">Elogio</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <button type="submit">ENVIAR</button>
+                            <button type="reset">APAGAR</button>
+                        </div>
+                    </div>
+
+                    <div class="direita"> 
+                        <label for="mensagem">Escreva abaixo seu esclarecimento:</label>
+                        <textarea name="mensagem" id="mensagem" maxlength="250" placeholder="Até 250 letras"></textarea>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- LAYOUT PARA MANDAR O ORÇAMENTO PELO WHATSAPP -->
+    <script>
+    const NUMERO_WHATSAPP = "5511956978166"; // 55 + DDD + número, só dígitos
+
+    document.getElementById("formContato").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const nome     = document.getElementById("nome").value.trim();
+        const telefone = document.getElementById("telefone").value.trim();
+        const email    = document.getElementById("email").value.trim();
+        const tipo     = document.getElementById("tipo").value;
+        const mensagem = document.getElementById("mensagem").value.trim();
+
+        const texto =
+            "*Novo contato pelo site*\n\n" +
+            "*Nome:* " + nome + "\n" +
+            "*Telefone:* " + telefone + "\n" +
+            "*Email:* " + email + "\n" +
+            "*Assunto:* " + tipo + "\n\n" +
+            "*Mensagem:*\n" + mensagem;
+
+        const link = "https://wa.me/" + NUMERO_WHATSAPP + "?text=" + encodeURIComponent(texto);
+
+        window.open(link, "_blank");
+        this.reset();
+    });
+</script>
+
+<!-- WHATSAPP FIXO NA LATERAL -->
+        <div class="zap">
+            <a href="">
+            <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+
+</body>
+</html>
