@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Google Sans", sans-serif;
+    transition: 0.3s ease;
+}
+
+html{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+/* --------------------------CABEÇARIO-------------------------- */
+header {
+    width: 100%;
+    padding: 3px;
+    backdrop-filter: blur(10px);   
+    background: rgba(8, 26, 51, 0.92);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    box-shadow: black 5px 0px 10px;
+}
+header #box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* LOGO */
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+header .logo a {
+    color: aliceblue;
+}
+header .logo img {
+    width: 4vw;
+}
+header .logo h1 {
+    font-size: 20px;
+}
+
+
+/* MENU */
+header .menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+header .menu-header ul {
+    display: flex;
+    gap: 6rem;
+ }
+header .menu-header li {
+     position: relative;
+ }
+header .menu-header a {
+    color: aliceblue;
+    font-weight: 700;
+    transition: 0.3s ease;
+    font-size: 18px;
+ }
+ header .menu-header a:hover {
+    color: red;
+ }
+header .menu-header ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: red; /* Cor da linha */
+  transform: scaleX(0); /* Oculta a linha inicialmente */
+  transform-origin: bottom right; /* Origem da animação */
+  transition: transform 0.3s; /* Animação suave */
+}
+/* Define a animação ao passar o mouse */
+.menu-header ul li a:hover::after {
+  transform: scaleX(1); /* Expande a linha da direita para a esquerda */
+  transform-origin: bottom left;
+}
+
+ /* ORÇAMENTO */
+ header .cotação {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+ }
+ header .cotação .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: 4vh;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    box-shadow: black -2px 2px 10px;
+    gap: 10px;
+    padding: 10px 20px;
+ }
+header .cotação .button:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: rgb(114, 114, 114) 1px 1px 10px ;
+ }  
+header .cotação .button:active {
+    transform: scale(0.95, 0.95);
+}
+header .cotação .button i {
+    font-size: 0.8rem;
+ }
+header .cotação .button p {
+    font-size: 1rem;
+ }
+
+ /* SESSÃO 1 - INICIO */
+ .inicial {
+    width: 100%;
+    height: 75vh;
+    padding: 3rem 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(8, 26, 51);
+    color: aliceblue;
+ }
+ .box-esquerda {
+    width: 55%;
+    height: calc(80% + 5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+ }
+ .box-esquerda h4 {
+    margin-bottom: 1rem;
+    font-size: 17px;
+    color: red;
+ }
+ .box-esquerda h1 {
+    margin-bottom: 1rem;
+    font-size: 60px;
+ }
+ .box-esquerda p {
+    margin-bottom: 8%;
+    font-size: 32px;
+ }
+ .box-esquerda .buttons  {
+    display: flex;
+    gap: 5rem;
+
+ }
+ .box-esquerda .buttons div {
+    width: 35%;
+    height: 3rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);   
+    background: rgba(16, 39, 71, 0.487);
+ }
+ .box-esquerda .buttons div:hover{ 
+    box-shadow: rgba(240, 248, 255, 0.826) 2px 2px 15px;
+    transform: translateY(-10px);
+ }
+  .box-esquerda .buttons div:active {
+    box-shadow: rgba(240, 248, 255, 0.524) 1px 1px 15px;
+    transform: translateY(0px);
+  }
+  .box-esquerda .buttons .orcamento {
+    background-color: red;
+  }
+ .box-esquerda .buttons .orcamento a,
+ .box-esquerda .buttons .historia a {
+    color: aliceblue;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+ }
+ 
+  /* SESSÃO 2 - NUMERAÇÃO */
+.numeracao {
+    width: 100%;
+    height: auto;
+}
+.numeracao .box-number {
+    display: flex;
+    align-items: center;
+    background-color: rgb(8, 26, 51);
+}
+.box-number .number {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #3b6faa;
+    padding: 2rem;
+}
+.number h2 {
+    color: red;
+    font-size: 40px;
+}
+.number p {
+    font-size: 22px;
+    color: aliceblue;
+}
+
+ /* SESSÃO 3 - HISTORIA */
+.history {
+    width: 100%;
+    height: 70vh;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 26, 51);
+}
+.history .divisor {
+    display: flex;
+    gap: 10rem;
+}
+.divisor .box-historia {
+    width: 35vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 2rem ;
+}
+.divisor .box-historia div {
+    border: 4px solid red;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+.divisor .box-historia img {
+    width: 30vw;
+    height: auto;
+    margin: 20px -20px -30px 0;
+}
+.divisor .color {
+}
+.divisor .box-historia h4 {
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: red;
+}
+.divisor .box-historia h2 {
+    margin-bottom: 1rem;
+    font-size: 42px;
+    color: aliceblue;
+}
+.divisor .box-historia p {
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: aliceblue;
+}
+.divisor .box-historia h3 {
+    font-size: 22px;
+    color: gray;
+}
+
+ /* SESSÃO 4 - MISSÃO */
+.missao {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.missao h4 {
+    color: red;
+    font-size: 22px;
+}
+.missao h2 {
+    color: black;
+    font-size: 40px;
+}
+
+
+
+
+ /* WHATSAPP FIXO INFERIOR DIREITO */
+.zap {
+    position: fixed;
+    bottom: 10px;   
+    right: 10px;
+    z-index: 2;
+    margin: 20px;
+}
+.zap:hover {
+    text-shadow: rgb(153, 255, 0) 2px 2px 20px;
+    transform: scale(1.1, 1.1);
+}
+.zap:active {
+    transform: scale(0.95, 0.95);
+}
+.zap i {
+    font-size: 3rem;
+    color: greenyellow;
+}
+
+
+@keyframes entradaCima {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* CABEÇARIO */
+#box-header {
+    animation: entradaCima 1s ease-out forwards;
+}

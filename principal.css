@@ -130,9 +130,9 @@ header .cotação .button p {
 /* --------------------------SESSÃO1-------------------------- */
 .sessão1 {
     width: 100%;
-    height: 60rem;
-    background-image: url(IMAGENS/INICIO/Mais\ que\ serviços\,\ é\ parceria!.png);
-    background-position: bottom;
+    height: 70rem;
+    background-image: url(IMAGENS/INICIO/Dosador\ Industrial\ em\ Destaque\ Tecnológico.png);
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -298,10 +298,11 @@ header .cotação .button p {
     width: 100%;
     height: auto;
     padding: 5rem;
-    background: linear-gradient(270deg, rgba(8, 26, 51, 0.92) 56%, transparent 100%), url(IMAGENS/Mais\ que\ serviços\,\ é\ parceria!\ \(2\).png);
+    background: linear-gradient(270deg, rgba(8, 26, 51, 0.942) 55%, transparent 100%), url(IMAGENS/Mais\ que\ serviços\,\ é\ parceria!\ \(7\).png);
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
 }
 .sessão3 .positivos {
     display: flex;
