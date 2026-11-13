@@ -282,7 +282,8 @@ header .cotação .button p {
  /* SESSÃO 4 - MISSÃO */
 .missao {
     width: 100%;
-    height: 20vh;
+    height: auto;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,8 +296,47 @@ header .cotação .button p {
 }
 .missao h2 {
     color: black;
-    font-size: 40px;
+    font-size: 30px;
 }
+.missao .linha-azul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    width: 50%;
+    height: 5px;
+    background-color: blue;
+    box-shadow: 2px 2px 15px #3b6faa;
+}
+.missao .linha-azul i {
+    background-color: #3b6faa;
+    border: solid 5px blue;
+    box-shadow: 2px 2px 15px #3b6faa;
+    border-radius: 100%;
+    font-size: 3rem;
+    padding: 10px;
+}
+.missao .linha-text {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 59%;
+}
+.missao .linha-text div {
+    text-align: center;
+    height: 5rem;
+    width: 23%;
+}
+.missao .linha-text div h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.missao .linha-text div p {
+    font-size: 18px;
+}
+
+
 
 
 
