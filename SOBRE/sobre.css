@@ -231,7 +231,7 @@ header .cotação .button p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(8, 26, 51);
+    background-color: aliceblue;
 }
 .history .divisor {
     display: flex;
@@ -258,7 +258,6 @@ header .cotação .button p {
     height: auto;
     margin: 20px -20px -30px 0;
 }
-
 .divisor .box-historia h4 {
     margin-bottom: 1rem;
     font-size: 22px;
@@ -267,12 +266,12 @@ header .cotação .button p {
 .divisor .box-historia h2 {
     margin-bottom: 1rem;
     font-size: 42px;
-    color: aliceblue;
+    color: black;
 }
 .divisor .box-historia p {
     margin-bottom: 1rem;
     font-size: 22px;
-    color: aliceblue;
+    color: black;
 }
 .divisor .box-historia h3 {
     font-size: 22px;
@@ -288,7 +287,10 @@ header .cotação .button p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background: url(IMAGEM/TRAJETO.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .missao h4 {
     color: red;
