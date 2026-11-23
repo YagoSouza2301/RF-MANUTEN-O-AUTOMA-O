@@ -145,6 +145,10 @@ header .cotação .button p {
 
 /* SESSÃO1 */
 .sect1 {
+    background-image: url(imagem/TESTE1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,10 +212,17 @@ header .cotação .button p {
     justify-content: space-around;
 }
 .sect2 .box {
-    background-color: #42658C;
     width: 40vw;
     height: 55vh;
     padding: 40px;
+}
+.sect2 .img {
+    background-image: url(imagem/TESTE2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -4px 5px 15px aliceblue;
+    border-radius: 15px;
 }
 .sect2 .somos h2 {
     font-size: 40px;
@@ -285,7 +296,7 @@ header .cotação .button p {
     margin-bottom: 10px;
 }
 .sect4 li i {
-    color: green;
+    color: greenyellow;
 }
 .sect4 .box-full a {
     color: aliceblue;
@@ -316,13 +327,16 @@ header .cotação .button p {
 
 /* SESSÃO 5 */
 .sect5 {
+     background-image: url(imagem/TESTE3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 35vh;
     padding: 3rem;
     display: flex;
     align-items: center;
     color: aliceblue;
-    background-color: rgb(8, 26, 51);
 }
 .sect5 .separar {
     width: 100%;
@@ -387,7 +401,7 @@ footer #footer-box {
     justify-content: center;
 }
 footer .box-img {
-    background-image: url(IMAGENS/INICIO/LOGO\ SEM\ FUNDO.png);
+    background-image: url(../IMAGENS/INICIO/LOGO\ SEM\ FUNDO.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
