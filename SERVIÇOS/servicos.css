@@ -257,7 +257,7 @@ header .cotação .button p {
 }
 .sect2 .box h3 {
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
 }
 .sect2 .box p {
     font-size: 20px;
@@ -294,12 +294,12 @@ header .cotação .button p {
   /* A cor e a inclinação ficam SÓ aqui */
   /* background:linear-gradient(180deg, white 20%, #E0F7FA 100%);
   transform: skewX(-20deg);
-  border-radius: 5px; */ */
+  border-radius: 5px; */ 
+
 .sect3 .box h2 {
     font-size: 35px;
     margin-bottom: 1em;
 }
-
 .sect3 .box ul li {
     display: flex;
     align-items: center;
@@ -309,6 +309,10 @@ header .cotação .button p {
     color: green;
     font-size: 22px;
     margin-right: 15px;
+}
+.sect3 .box ul li p {
+    font-size: 18px;
+    font-weight: 500;
 }
 .sect3 .box .button {
     background-color: red;
@@ -321,16 +325,16 @@ header .cotação .button p {
     color: aliceblue;
     font-weight: 600;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 35px;
     box-shadow: -2px 3px 15px rgba(0, 0, 0, 0.699);
 }
 .sect3 .box .button:hover {
     transform: scale(1.04, 1.04);
-    box-shadow: -2px 3px 25px black;
+    box-shadow: -2px 3px 20px black;
 }
 .sect3 .box .button:active {
     transform: scale(0.95, 0.95);
-    box-shadow: -2px 3px 25px black;
+    box-shadow: -1px 1px 10px black;
 }
 .sect3 .img {
     background-image: url(IMAGENS/TESTE2.png);
@@ -341,6 +345,77 @@ header .cotação .button p {
     height: 40vh;
 }
    
+/* SESSÃO4 */
+.sect4 {
+    background-color: aliceblue;
+    width: 100%;
+    height: 30vh;
+    padding: 3rem;
+}
+.sect4 .box-full {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.sect4 .box-full .box-top {
+    width: 50%;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+.sect4 .box-full .linha {
+    width: 2px;
+    height: 10vh;
+    background-color: red;
+}
+.sect4 .box-full .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sect4 .box-full .top i {
+    font-size: 2.4em;
+}
+.sect4 .box-full .top h3 {
+    font-size: 22px;
+}
+.sect4 .box-full .box-orc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect4 .box-full .box-orc div {
+    width: 50%;
+}
+.sect4 .box-full .box-orc p {
+    font-size: 21px;
+}
+.sect4 .box-full .box-orc div div {
+    padding: 5px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: red;
+    width: 14vw;
+    height: 5vh;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.sect4 .box-full .box-orc div div:hover {
+    transform: scale(1.04, 1.04);
+    box-shadow: -2px 3px 20px black;
+}
+.sect4 .box-full .box-orc div div:active {
+    transform: scale(0.95, 0.95);
+    box-shadow: -1px 1px 10px black;
+}
 
 /* --------------------------RODAPÉ-------------------------- */
 footer {
