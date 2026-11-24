@@ -230,20 +230,21 @@ header .cotação .button p {
     color: red;
 }
 .sect2 #box-full {
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 1em;
     flex-wrap: wrap;
 }
 .sect2 .box {
     width: 25vw;
     height: 30vh;
-    backdrop-filter: blur(30px); 
-    background-color: rgba(255, 255, 255, 0.678);
+    background-color: aliceblue;
     padding: 25px;
     border-radius: 15px;
-    border: solid 2px black;
-    box-shadow: -2px 3px 10px black;
+    border: solid 1px black;
+    box-shadow: -2px 3px 10px rgba(0, 0, 0, 0.61);
 }
 .sect2 .box:hover {
     transform: scale(1.02, 1.02);

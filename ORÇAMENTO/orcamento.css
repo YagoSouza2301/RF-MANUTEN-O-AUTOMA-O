@@ -145,8 +145,7 @@ header .cotação .button p {
     width: 70%;
     height: 100%;
     padding-bottom: 50px;
-    backdrop-filter: blur(10px);   
-    background: rgba(0, 0, 0, 0.619);
+    background: rgba(0, 0, 0, 0.700);
     border-radius: 15px;
  }
  .formulario .form .agradecimento {

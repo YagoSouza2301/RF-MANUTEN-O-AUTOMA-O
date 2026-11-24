@@ -516,8 +516,7 @@ header .cotação .button p {
     background-color: rgb(8, 26, 51);
 }
 .sessão6 .feedback-card{
-    margin: 10px 15px;
-    backdrop-filter: blur(10px);   
+    margin: 10px 15px;   
     background: rgba(8, 26, 51, 0.92);
     border: 2px solid #24466D;
     border-radius: 5px;
