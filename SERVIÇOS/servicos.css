@@ -280,6 +280,7 @@ header .cotação .button p {
     padding: 1.5em 3em ;
     background:linear-gradient(180deg, white 20%, #E0F7FA 100%);
     border-radius: 10px;
+    }
     /* position: relative;
     isolation: isolate; 
 }
@@ -293,7 +294,6 @@ header .cotação .button p {
   /* background:linear-gradient(180deg, white 20%, #E0F7FA 100%);
   transform: skewX(-20deg);
   border-radius: 5px; */ */
-}
 .sect3 .box h2 {
     font-size: 35px;
     margin-bottom: 1em;
