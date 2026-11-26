@@ -406,7 +406,6 @@ header .cotação .button p {
 }
 .sect5 h2 {
     font-size: 40px;
-    margin: 10px 0px;
 }
 .sect5 .text {
     width: 30%;
@@ -422,7 +421,6 @@ header .cotação .button p {
     width: 100%;
     max-width: 650px;
     min-height: 220px;
-    margin: 10px auto;
     padding: 25px;
     background: rgba(8, 26, 51, 0.92);
     border: 2px solid #24466D;
