@@ -21,7 +21,7 @@ header {
     width: 100%;
     padding: 3px;
     backdrop-filter: blur(10px);   
-    background: rgba(8, 26, 51, 0.92);
+    background: #081a33eb;
     position: fixed;
     top: 0;
     left: 0;
